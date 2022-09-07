@@ -1,11 +1,59 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+
+.heart {
+  display: inline-block;
+  color: #333; /*線の色*/
+  position: relative;
+  margin-top: 6px; /*要調整*/
+  margin-left: 5px; /*要調整*/
+  /* width: 9px; */
+  width: 64px;
+  height: 9px;
+  height: 64px;
+  border-left: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+  transform: rotate(-45deg) scale(1); /*scale要調整*/
+  background: red; /*背景色*/
+}
+.heart:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  width: 8px;
+  height: 5px;
+  width: 64px;
+  height: 64px;
+  /* border-radius: 5px 5px 0 0; */
+  border-radius: 20px 20px 0 0;
+  border-top: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  background: red; /*背景色*/
+}
+.heart:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  width: 5px;
+  height: 8px;
+  width: 64px;
+  height: 64px;
+  border-radius: 0 5px 5px 0;
+  border-radius: 20px 20px 0 0;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+  background: red; /*背景色*/
 }

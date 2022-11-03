@@ -5,8 +5,20 @@
   /* align-items: center; */
   /* justify-content: center; */
   /* color: white; */
-  margin: 100px;
-  background-color: grey;
+  color: black;
+  padding: 30px;
+  /* margin: 100px; */
+  /* background-color: grey; */
+}
+
+.like[type="checkbox"]:checked ~ .heart {
+  color: green;
+}
+input:checked .heart {
+  color: blue;
+}
+#kkk [type="checkbox"]:checked ~ .heart {
+  color: black;
 }
 
 .heart {
@@ -17,9 +29,11 @@
   width: 16px;
   height: 16px;
   /* transform: scale(6); */
-  /* transform: rotate(-45deg) scale(6); */
+  transform: rotate(-45deg) scale(2);
+  border-radius: 16px 16px 0 0;
+  background: rgba(255, 0, 0, 0.5);
 }
-
+/* 
 .heart:before {
   content: "";
   position: absolute;
@@ -41,4 +55,4 @@
   height: 16px;
   border-radius: 0 16px 16px 0;
   background: rgba(0, 255, 255, 0.5);
-}
+} */

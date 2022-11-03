@@ -6,28 +6,35 @@
   /* justify-content: center; */
   /* color: white; */
 }
-
-.container-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.boxHeart {
+  background: burlywood;
+  position: relative;
+  width: 150px;
+  height: 100px;
   margin: 100px;
 }
 
-.container-1 .heart {
-  display: inline-block;
-  position: relative;
-  margin-top: 6px; /*要調整*/
-  margin-left: 5px; /*要調整*/
+.containerHeart {
+  /* display: flex; */
+  /* position: absolute; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin: 0px; */
+}
+
+.containerHeart .heart {
+  /* display: inline-block; */
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
   width: 9px;
   height: 9px;
   width: 16px;
   height: 16px;
-  transform: rotate(-45deg) scale(3);
-  background: red;
+  transform: rotate(-45deg) scale(6);
 }
 
-.container-1 .heart:before {
+.containerHeart .heart:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -35,9 +42,9 @@
   width: 16px;
   height: 24px;
   border-radius: 16px 16px 0 0;
-  background: green;
+  background: rgba(255, 0, 0, 0.5);
 }
-.container-1 .heart:after {
+.containerHeart .heart:after {
   content: "";
   position: absolute;
   top: 0px;
@@ -45,7 +52,7 @@
   width: 16px;
   height: 16px;
   border-radius: 0 16px 16px 0;
-  background: red;
+  background: rgba(0, 255, 255, 0.5);
 }
 
 .container-1 .heart-1 {
@@ -142,12 +149,12 @@
 }
 
 .container .heart-3 {
-  width: 24px; /* pathのサイズ */
-  height: 24px; /* pathのサイズ */
+  /* width: 24px; pathのサイズ */
+  /* height: 24px; pathのサイズ */
   /* background: #FF5252; 色 */
   background: rgba(0, 50, 0, 0.5);
   clip-path: path(
-    "M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z"
+    "M500 50.113-250.48 294.95c-69.385 81.699-69.385 213.25 0 294.95 34.693 40.849 79.969 61.275 125.24 61.275 21.258-3.5e-4 46.611-5.7598 69.195-19.65-0.0229 0.11548-0.0435 0.22626-0.0664 0.3418-38.325 193.14-71.031 263.02-71.031 263.02 0 2.682 1.4607 4.9108 4.0977 4.7559 17.535-1.0292 87.042-4.9648 124.3-4.9648 0.0556 0 0.12023 2e-3 0.17578 2e-3 0.0556-4e-5 0.12023-2e-3 0.17579-2e-3 37.255 0 106.76 3.9356 124.3 4.9648 2.637 0.15496 4.0977-2.0738 4.0977-4.7559 0 0-32.528-69.519-70.715-261.44 21.747 12.5 45.709 17.73 65.957 17.73 45.277 0 90.551-20.425 125.24-61.275 69.385-81.699 69.292-212.97-0.0928-294.67z"
   );
-  transform: scale(6);
+  transform: scale(1);
 }

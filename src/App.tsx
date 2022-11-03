@@ -1,13 +1,14 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
-  useEffect(() => {
-    document.title = "react-css-heart-dot"
-  })
   return (
     <div className="App">
-      <i className="heart"></i>
+      <div className="container">
+        <div className="heart"></div>
+        <div className="heart-1"></div>
+        <div className="heart-2"></div>
+      </div>
     </div>
   );
 }

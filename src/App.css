@@ -40,3 +40,67 @@
   border-radius: 0 16px 16px 0;
   background: red;
 }
+
+.heart-1 {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.heart-1::before {
+  content: "";
+  position: absolute;
+  left: 60px; /* x位置 */
+  top: 0; /* y位置 */
+  width: 60px; /* 幅 */
+  height: 100px; /* 高さ */
+  background: #ff5252; /* 色 */
+  border-radius: 100px 60px 0 0; /* 丸み */
+  transform: rotate(-45deg); /* 角度調整 */
+  transform-origin: 0 100%; /* 回転の基準点 */
+}
+
+.heart-1::after {
+  content: "";
+  position: absolute;
+  left: 0; /* x位置 */
+  top: 0; /* y位置 */
+  width: 60px; /* 幅 */
+  height: 100px; /* 高さ */
+  background: #ff5252; /* 色 */
+  border-radius: 60px 100px 0 0; /* 丸み */
+  transform: rotate(45deg); /* 角度調整 */
+  transform-origin: 100% 100%; /* 回転の基準点 */
+}
+
+.heart-2 {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.heart-2::before {
+  content: "";
+  position: absolute;
+  left: 60px; /* x位置 */
+  top: 0; /* y位置 */
+  width: 60px; /* 幅 */
+  height: 100px; /* 高さ */
+  background: #ff5252; /* 色 */
+  border-radius: 100px 60px 0 0; /* 丸み */
+  transform: rotate(-45deg); /* 角度調整 */
+  transform-origin: 0 100%; /* 回転の基準点 */
+}
+
+.heart-2::after {
+  content: "";
+  position: absolute;
+  left: 0; /* x位置 */
+  top: 0; /* y位置 */
+  width: 60px; /* 幅 */
+  height: 100px; /* 高さ */
+  background: #ff5252; /* 色 */
+  border-radius: 60px 100px 0 0; /* 丸み */
+  transform: rotate(45deg); /* 角度調整 */
+  transform-origin: 100% 100%; /* 回転の基準点 */
+}

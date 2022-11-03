@@ -1,15 +1,22 @@
 .App {
-  text-align: center;
-  min-height: 50vh;
+  /* text-align: center; */
+  /* min-height: 50vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* color: white; */
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  margin: 100px;
 }
 
 .heart {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   margin-top: 6px; /*要調整*/
   margin-left: 5px; /*要調整*/
   width: 9px;
@@ -86,7 +93,8 @@
   top: 0; /* y位置 */
   width: 60px; /* 幅 */
   height: 100px; /* 高さ */
-  background: #ff5252; /* 色 */
+  /* background: #ff5252; 色 */
+  background: rgba(255,0,0, 0.5);
   border-radius: 100px 60px 0 0; /* 丸み */
   transform: rotate(-45deg); /* 角度調整 */
   transform-origin: 0 100%; /* 回転の基準点 */
@@ -99,7 +107,8 @@
   top: 0; /* y位置 */
   width: 60px; /* 幅 */
   height: 100px; /* 高さ */
-  background: #ff5252; /* 色 */
+  /* background: #ff5252; 色 */
+  background : rgba(0,255,255,0.5);
   border-radius: 60px 100px 0 0; /* 丸み */
   transform: rotate(45deg); /* 角度調整 */
   transform-origin: 100% 100%; /* 回転の基準点 */

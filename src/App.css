@@ -11,11 +11,21 @@
   background-color: grey;
 }
 
-.like input:checked ~ .heart:before {
-  background: green;
+.like [type="checkbox"] {
+  display: none;
 }
-.like input:checked ~ .heart:after {
+
+.like [type="checkbox"]:checked ~ .heart:before {
   background: green;
+  animation-name: heart;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+.like [type="checkbox"]:checked ~ .heart:after {
+  background: green;
+  animation-name: heart;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
 }
 
 .heart {
@@ -52,3 +62,16 @@
   background: rgba(0, 255, 255, 0.5);
 }
 
+@keyframes heart {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(6);
+  }
+  100% {
+    transform: scale(3);
+    /* color: red; */
+    background: red;
+  }
+}

@@ -7,8 +7,15 @@
   /* color: white; */
   color: black;
   padding: 30px;
-  /* margin: 100px; */
-  /* background-color: grey; */
+  margin: 100px;
+  background-color: grey;
+}
+
+.like input:checked ~ .heart:before {
+  background: green;
+}
+.like input:checked ~ .heart:after {
+  background: green;
 }
 
 .heart {
@@ -19,21 +26,9 @@
   width: 16px;
   height: 16px;
   /* transform: scale(6); */
-  transform: rotate(-45deg) scale(2);
-  border-radius: 16px 16px 0 0;
-  background: rgba(255, 0, 0, 0.5);
+  transform: translateX(200px) rotate(-45deg) scale(6);
 }
 
-.like [type="checkbox"]:checked .heart {
-  background: green;
-  transform: rotate(-45deg) scale(5);
-}
-
-.like input:checked ~ .heart {
-  background: green;
-}
-
-/* 
 .heart:before {
   content: "";
   position: absolute;
@@ -55,4 +50,5 @@
   height: 16px;
   border-radius: 0 16px 16px 0;
   background: rgba(0, 255, 255, 0.5);
-} */
+}
+

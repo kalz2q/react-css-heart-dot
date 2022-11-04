@@ -7,3 +7,5 @@ https://1-notes.com/css-shape-heart-design/
 CSSでハート型をプロパティを使って作成する方法と、
 clip-pathのpathを使って作成する方法の２通りを紹介しています。
 
+stackoverflow
+How to create custom checkbox in react hooks

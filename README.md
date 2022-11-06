@@ -1,7 +1,13 @@
 # react-css-heart-dot
 
-dotinstall は material-icon を使っているが、これを css ベースにしたい。
 
+
+---
+06-checkbox で checkbox 起動と言うか、hook を使わずに animation を起動している云々。
+なので、初めからやり直し。
+--- 
+dotinstall は material-icon を使っているが、これを css ベースにしたい。
+---
 CSS | ハート型（Heart）の作り方
 https://1-notes.com/css-shape-heart-design/
 CSS でハート型をプロパティを使って作成する方法と、

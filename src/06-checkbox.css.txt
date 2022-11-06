@@ -1,32 +1,45 @@
 .App {
   /* text-align: center; */
-  /* min-height: 50vh; */
+  min-height: 50vh;
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
   /* color: white; */
-  padding: 40px;
-  /* margin: 100px; */
+  color: black;
+  padding: 30px;
+  margin: 100px;
   background-color: grey;
-}
-
-.heart {
-  display: inline-block;
-  position: absolute;
-  /* margin-top: 0px; */
-  /* margin-left: 0px; */
-  width: 160px;
-  height: 160px;
-  /* transform: scale(6); */
-  /* transform: rotate(-45deg); */
 }
 
 .like [type="checkbox"] {
   /* display: none; */
-  transform: scale(2);
 }
 
-.heart::before {
+.like [type="checkbox"]:checked ~ .heart:before {
+  background: green;
+  animation-name: heart;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+.like [type="checkbox"]:checked ~ .heart:after {
+  background: green;
+  animation-name: heart;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.heart {
+  /* display: inline-block; */
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 16px;
+  height: 16px;
+  /* transform: scale(6); */
+  transform: translateX(200px) rotate(-45deg) scale(6);
+}
+
+.heart:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -47,20 +60,6 @@
   height: 16px;
   border-radius: 0 16px 16px 0;
   background: rgba(0, 255, 255, 0.5);
-}
-
-.like [type="checkbox"]:checked ~ .heart:before {
-  background: green;
-  animation-name: heart;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
-}
-
-.like [type="checkbox"]:checked ~ .heart:after {
-  background: green;
-  animation-name: heart;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes heart {

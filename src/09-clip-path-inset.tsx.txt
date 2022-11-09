@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <div className="outerbox">
         <div className="box"></div>
-        <div className="circle"></div>
       </div>
     </div>
   );

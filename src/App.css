@@ -1,35 +1,18 @@
 .App {
-  /* text-align: center; */
-  /* min-height: 50vh; */
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* color: white; */
-  padding: 100px;
+  text-align: center;
   margin: 100px;
-  background-color: grey;
-}
-.heartbox {
-  display: inline-block;
-  position: absolute;
-  /* transform: rotate(-45deg); */
-  /* margin: 30px; */
 }
 .heart {
   /* display: inline-block; */
   position: absolute;
   /* margin-top: 0px; */
   /* margin-left: 0px; */
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: yellow;
+  border-radius: 50%;
   /* transform: scale(6); */
-  transform: rotate(-45deg);
-}
-
-.like [type="checkbox"] {
-  /* display: none; */
-  transform: scale(6);
+  /* transform: rotate(-45deg); */
 }
 
 .heart::before {
@@ -55,30 +38,11 @@
   background: rgba(0, 255, 255, 0.5);
 }
 
-.like [type="checkbox"]:checked ~ .heart:before {
-  background: green;
-  animation-name: heart;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
-}
-
-.like [type="checkbox"]:checked ~ .heart:after {
-  background: green;
-  animation-name: heart;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes heart {
-  0% {
-    transform: scale(0);
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  50% {
-    transform: scale(6);
-  }
-  100% {
-    transform: scale(1);
-    /* color: red; */
-    background: red;
+  to {
+    transform: rotate(360deg);
   }
 }

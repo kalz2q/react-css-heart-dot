@@ -7,13 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <label className="like" >
-        <input type="checkbox"></input>
-        <div className="heartbox">
-          <div className="heart"></div>
-        </div>
-
-      </label>
+      <div className="heart"></div>
     </div>
   );
 }

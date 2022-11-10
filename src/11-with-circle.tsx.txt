@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 // rotate equalateral triangle
+// drawn by clip path polygon
 
 function App() {
   return (

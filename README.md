@@ -4,6 +4,7 @@ https://developer.mozilla.org/ja/docs/Web/CSS/basic-shape
 basic-shape, clip-path, shape-outside, offset-path
 cssでclip-pathでハートを描くことができるが、clip-pathを検索したらmdnにbasic-shapeと言うページがあって
 これはこれでやりたい。
+三角形を描く。
 
 ---
 06-checkbox で checkbox 起動と言うか、hook を使わずに animation を起動している云々。

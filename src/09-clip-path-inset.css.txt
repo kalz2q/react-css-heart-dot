@@ -15,5 +15,13 @@
   width: 200px;
   height: 200px;
   background-color: red;
-  clip-path: inset(10% 0% 30px 20px);
+  clip-path: inset(10% 0% 30px 20px round 50% 80% 90% 120%);
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* clip-path: circle(6rem at 12rem 8rem); */
+  clip-path: circle(70px at 100px 150px);
+  /* shape-outside: circle(50%); */
 }

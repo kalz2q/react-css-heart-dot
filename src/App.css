@@ -17,7 +17,16 @@
   height: 180px;
   border-radius: 50%;
   position: absolute;
-  background-color: currentColor;
+
   color: black;
-  box-shadow: 150px 240px;
+  box-shadow: 150px 240px 0px 0px currentColor, 300px 240px 0px 0px currentColor;
+}
+
+.mustache::before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 120px;
+  border-bottom: solid 180px currentColor;
+  background-color: red;
 }

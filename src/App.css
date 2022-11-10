@@ -9,41 +9,15 @@
 .box {
   width: 200px;
   height: 200px;
+  background-color: yellow;
 }
 
-.triangle {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.mustache {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
   position: absolute;
-  clip-path: polygon(0% 87%, 50% 0%, 100% 87%);
-}
-.circle {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  background-color: rgba(107, 140, 35, 0.5);
-  top: 8%;
-  clip-path: circle(50% at 50% 50%);
-  transform: scale(1.15);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .triangle {
-    transform-origin: 50% 58%;
-    animation: App-logo-spin infinite 3s linear;
-  }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: currentColor;
+  color: black;
+  box-shadow: 150px 240px;
 }

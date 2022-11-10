@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="box">
-        <div className="triangle"></div>
-        <div className="circle"></div>
+        <div className="mustache"></div>
       </div>
     </div>
   );

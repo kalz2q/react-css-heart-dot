@@ -1,5 +1,10 @@
 # react-css-heart-dot
+課題
+mustacheの座標を自分で計算する。
+左右対称にする。
 
+
+---
 css pure drawing
 ted mustache
 https://www.youtube.com/watch?v=mNKz3devFAw

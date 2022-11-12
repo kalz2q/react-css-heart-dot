@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-// https://www.youtube.com/watch?v=mNKz3devFAw
-// wenting zhang
-// ted mustache
+// 左右対称にする
+// 座標計算を単純にする
 
 function App() {
   return (
     <div className="App">
-      <div className="mustache"></div>
+      <div className="box">
+        <div className="mustache">
+        </div>
+      </div>
     </div>
   );
 }

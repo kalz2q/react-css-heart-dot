@@ -3,19 +3,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px;
-  position: relative;
-  transform: scale(0.5);
+  /* margin: 50px; */
+  /* position: relative; */
+  /* transform: scale(0.5); */
 }
-
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
 .mustache {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   left: 100px;
   border-radius: 50%;
   position: absolute;
-
   color: black;
+
   box-shadow: 150px 240px 0px 0px currentColor, 300px 240px 0px 0px currentColor;
 }
 

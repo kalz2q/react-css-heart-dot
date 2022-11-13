@@ -1,29 +1,12 @@
-.App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* margin: 50px; */
-  /* position: relative; */
-  /* transform: scale(0.5); */
-}
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: relative;
-}
 .mustache {
-  width: 100px;
-  height: 100px;
-  top: 50%;
+  width: 180px;
+  height: 180px;
   left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 50%;
   position: absolute;
-  /* background-color: rgba(182, 209, 236, 0.1); */
+  background-color: orange;
   color: black;
-  box-shadow: -50px 0 0 0 currentColor, 50px 0px 0px 0px currentColor;
+  box-shadow: 150px 240px 0 0 currentColor, 300px 240px 0 0 currentColor;
 }
 
 .mustache::before {
@@ -34,7 +17,6 @@
   width: 210px;
   height: 120px;
   border-bottom: solid 180px currentColor;
-  /* background-color: red; */
   border-radius: 0 0 0 100%;
   transform: rotate(-40deg);
   transform-origin: right 210px;
@@ -48,8 +30,11 @@
   width: 210px;
   height: 120px;
   border-bottom: solid 180px currentColor;
-  /* background-color: red; */
   border-radius: 0 0 100% 0;
   transform: rotate(40deg);
   transform-origin: left 210px;
+}
+
+.body {
+  background-color: #9eccff;
 }

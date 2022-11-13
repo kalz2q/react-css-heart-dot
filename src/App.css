@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color:  black;
   /* margin: 50px; */
   /* position: relative; */
   /* transform: scale(0.5); */
@@ -13,61 +14,53 @@
   background-color: yellow;
   position: relative;
 }
-.base {
-  color: red;
-}
 .base::before {
   content: "";
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: currentColor;
   position: absolute;
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* border-radius: 50%; */
-  /* position: absolute; */
-  /* background-color: rgba(182, 209, 236, 0.1); */
-  /* background-color: red; */
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  position: absolute;
 }
-
-.mustache {
-  /* width: 100px; */
-  /* height: 100px; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* border-radius: 50%; */
-  /* position: absolute; */
-  /* background-color: rgba(182, 209, 236, 0.1); */
-  color: black;
-  /* box-shadow: -50px 0 0 0 currentColor, 50px 0px 0px 0px currentColor; */
+.base::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  position: absolute;
 }
 
 .mustache::before {
   content: "";
   position: absolute;
-  left: 30px;
-  top: 120px;
-  width: 210px;
-  height: 120px;
-  border-bottom: solid 180px currentColor;
-  /* background-color: red; */
+  top: -25%;
+  left: -37.5%;
+  width: 125px;
+  height: 100px;
+  border-bottom: solid 100px currentColor;
   border-radius: 0 0 0 100%;
+  transform-origin: 100% 75%;
   transform: rotate(-40deg);
-  transform-origin: right 210px;
 }
 
 .mustache::after {
   content: "";
   position: absolute;
-  left: 390px;
-  top: 120px;
-  width: 210px;
-  height: 120px;
-  border-bottom: solid 180px currentColor;
-  /* background-color: red; */
+  top: -25%;
+  right: -37.5%;
+  width: 125px;
+  height: 100px;
+  border-bottom: solid 100px currentColor;
   border-radius: 0 0 100% 0;
   transform: rotate(40deg);
-  transform-origin: left 210px;
+  transform-origin: 0% 75%;
 }

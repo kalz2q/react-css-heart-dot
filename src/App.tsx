@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <div className="box">
-        <div className="mustache">
-        </div>
+        <div className="base"></div>
+        <div className="mustache"></div>
       </div>
     </div>
   );

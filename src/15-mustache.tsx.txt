@@ -6,11 +6,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="box">
-
-        <div className="circle-1">        <div className="eye"></div></div>
-        <div className="circle-2"></div>
+      <div className="outerbox">
+        <div className="box">
+          <div className="base"></div>
+          <div className="mustache"></div>
+        </div>
       </div>
+
     </div>
   );
 }

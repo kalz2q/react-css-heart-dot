@@ -1,5 +1,9 @@
 # react-css-heart-dot
 
+bullseye を描く。
+
+---
+
 課題
 mustache の座標を自分で計算する。
 左右対称にする。

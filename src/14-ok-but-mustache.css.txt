@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  /* margin: 50px; */
+  /* position: relative; */
+  /* transform: scale(0.5); */
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+}
+.base::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  position: absolute;
+}
+.base::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: currentColor;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mustache::before {
+  content: "";
+  position: absolute;
+  top: -25%;
+  left: -37.5%;
+  width: 125px;
+  height: 100px;
+  border-bottom: solid 100px currentColor;
+  border-radius: 0 0 0 100%;
+  transform-origin: 100% 75%;
+  transform: rotate(-40deg);
+}
+
+.mustache::after {
+  content: "";
+  position: absolute;
+  top: -25%;
+  right: -37.5%;
+  width: 125px;
+  height: 100px;
+  border-bottom: solid 100px currentColor;
+  border-radius: 0 0 100% 0;
+  transform: rotate(40deg);
+  transform-origin: 0% 75%;
+}

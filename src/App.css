@@ -23,15 +23,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 50%;
   /* border: solid 10px black; */
   border-bottom: 20px solid black;
-  border-top: 20px solid black;
+  /* border-top: 20px solid black; */
+  border-radius: 100% 0% 100% 1000%;
 }
 
 .eye {
   width: 40px;
-  height: 20px;
+  height: 40px;
   background-color: currentColor;
   position: absolute;
   top: 50%;

@@ -1,5 +1,10 @@
 # react-css-heart-dot
 
+leaf を描く。
+https://1-notes.com/css-shape-leaf-design/
+
+---
+
 bullseye を描く。
 
 ---

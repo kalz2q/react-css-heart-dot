@@ -7,6 +7,12 @@ https://1-notes.com/css-shape-leaf-design/
 
 bullseye を描く。
 
+bullsye.txt
+
+Creating Circular (Bullseye) Stripes in CSS
+https://www.kirupa.com/animations/radial_gradient_stripes.htm
+https://codepen.io/kalz2q/pen/ZEoGNgv?editors=0110
+
 ---
 
 課題

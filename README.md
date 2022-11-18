@@ -1,5 +1,13 @@
 # react-css-heart-dot
 
+アイデア
+
+1. 三角に目玉
+2. 楕円に目玉
+3. 坊主に目玉
+
+---
+
 leaf を描く。
 https://1-notes.com/css-shape-leaf-design/
 

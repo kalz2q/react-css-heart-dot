@@ -15,66 +15,47 @@
   position: relative;
   gap: 20px;
 }
-.box-2 {
-  width: 200px;
-  height: 200px;
-  background-color: tan;
-  position: relative;
-  gap: 20px;
-}
 
-.belgium {
-  width: 100px;
+.robot {
+  width: 150px;
   height: 100px;
-  position: absolute;
-  background: linear-gradient(
-    to right,
-    black 33%,
-    yellow 33%,
-    yellow 66%,
-    red 66%
-  );
-}
-
-.bullseye {
-  width: 200px;
-  height: 200px;
+  background-color: skyblue;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 4px solid black;
+}
+.lefteye {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
   background: radial-gradient(
     circle,
-    black 10%,
-    pink 10%,
-    pink 20%,
-    blue 20%,
-    blue 30%,
-    orange 30%,
-    orange 40%,
-    red 40%,
-    red 50%,
-    green 50%,
-    green 60%,
-    black 60%,
-    black 80%
+    black 30%,
+    white 30%,
+    white 50%,
+    black 50%
   );
 }
-
-.bullseye-2 {
-  width: 200px;
-  height: 200px;
+.righteye {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: repeating-radial-gradient(
+  right: 15%;
+  transform: translateY(-50%);
+  background: radial-gradient(
     circle,
-    black 0px,
-    black 20px,
-    red 20px,
-    red 40px
+    black 30%,
+    white 30%,
+    white 50%,
+    black 50%
   );
 }

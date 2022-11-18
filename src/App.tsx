@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="box">
-        <div className='bullseye'></div>
-      </div>
-      <div className="box-2">
-        <div className='bullseye-2'></div>
+        <div className='robot'>
+          <div className='lefteye'></div>
+          <div className='righteye'></div>
+        </div>
       </div>
     </div>
   );

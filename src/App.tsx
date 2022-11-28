@@ -7,8 +7,32 @@ function App() {
     <div className="App">
       <div className="box">
         <div className='robot'>
-          <div className='lefteye'></div>
-          <div className='righteye'></div>
+          <div className='lefteye'>
+            <div className='iris'></div>
+          </div>
+          <div className='righteye'>
+            <div className='iris'></div>
+          </div>
+        </div>
+      </div>
+      <div className="box">
+        <div className='robot'>
+          <div className='lefteye'>
+            <div className='iris'></div>
+          </div>
+          <div className='righteye'>
+            <div className='iris'></div>
+          </div>
+        </div>
+      </div>
+      <div className="box">
+        <div className='robot'>
+          <div className='lefteye'>
+            <div className='iris'></div>
+          </div>
+          <div className='righteye'>
+            <div className='iris'></div>
+          </div>
         </div>
       </div>
     </div>

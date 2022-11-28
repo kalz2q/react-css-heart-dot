@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: center;
   color: black;
-  flex-wrap: wrap;
-  gap: 20px;
   /* margin: 50px; */
   /* position: relative; */
   /* transform: scale(0.5); */
@@ -16,6 +14,7 @@
   height: 200px;
   background-color: yellow;
   position: relative;
+  gap: 20px;
 }
 
 .robot {

@@ -61,3 +61,51 @@
   transform: translate(-50%, -50%);
   background-color: darkslateblue;
 }
+
+.box4triangle {
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  position: relative;
+}
+
+.triangle {
+  width: 150px;
+  height: 150px;
+  background-color: sandybrown;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  clip-path: polygon(0% 87%, 50% 0%, 100% 87%);
+}
+
+.box4triangle02 {
+  width: 200px;
+  height: 200px;
+  background-color: lightslategray;
+  position: relative;
+}
+
+.triangle02 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 10px;
+  /* left: 15.5px; */
+  border-bottom: 173px solid orange;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  /* transform: scale(80%); */
+}
+
+.lefteye02 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  border: 2px solid red;
+}
